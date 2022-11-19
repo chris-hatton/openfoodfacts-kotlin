@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../build-system" name="openfoodfacts-kotlin-build-system">
+                <projects>
+                  <project path="$PROJECT_DIR$/../build-system" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../openfoodfacts-kotlin" name="openfoodfacts-kotlin">
+                <projects>
+                  <project path="$PROJECT_DIR$/../openfoodfacts-kotlin" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app" name="openfoodfacts-kotlin-test-app">
+                <projects>
+                  <project path="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app" />
+                  <project path="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/android" />
+                  <project path="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/desktop" />
+                  <project path="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/shared" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="zulu-11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../build-system" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../openfoodfacts-kotlin" />
+            <option value="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app" />
+            <option value="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/android" />
+            <option value="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/desktop" />
+            <option value="$PROJECT_DIR$/../openfoodfacts-kotlin-test-app/shared" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
